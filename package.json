@@ -1,0 +1,19 @@
+{
+  "name": "deaddetectorbot",
+  "version": "1.0.0",
+  "description": "Finds the deadest channel in a server",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "nodemon bot.js",
+    "prod": "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.4.0",
+    "deaddetectorbot": "file:",
+    "discord-api-types": "^0.37.99",
+    "discord.js": "^14.16.1"
+  }
+}
